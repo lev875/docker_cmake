@@ -1,6 +1,6 @@
 FROM alpine/git AS build_stage
 
-ARG CMAKE_VERSION=3.18.2
+ARG CMAKE_VERSION=3.17.5
 ARG MAKE_OPTS=-j4
 
 WORKDIR /tmp
